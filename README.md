@@ -65,4 +65,4 @@ AWS Academy Learner Lab
 
 ## Source
 
-The Terraform and setup scripts were written with assistance from the LLM [claude.ai](claude.ai).
+The Terraform and setup scripts were written with assistance from the LLM [claude.ai](https://www.claude.ai).
