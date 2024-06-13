@@ -6,10 +6,15 @@ This tutorial aims to automatically set up a Minecraft Java server on an AWS ser
 
 ## Requirements
 
- git: [Download](https://www.git-scm.com/downloads)
- Terraform: [Download](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
- AWS CLI: [Download](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
- AWS Academy Learner Lab
+git: [Download](https://www.git-scm.com/downloads)
+
+Terraform: [Download](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
+
+AWS CLI: [Download](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+
+AWS Academy Learner Lab
+
+### Requirements Steps
 
  1. Download the required tools from the links above, following the instructions on each page.
  2. Navigate to the folder where you will store the setup scripts.
@@ -20,10 +25,12 @@ This tutorial aims to automatically set up a Minecraft Java server on an AWS ser
  7. Enter the following commands in the terminal, replacing each of the values with your corresponding codes. This sets the environmental variables on your local machine, allowing Terraform to read them.
 
     `aws configure set aws_access_key_id "<value>"`
+    
     `aws configure set aws_secret_access_key "<value>"`
+    
     `aws configure set aws_session_token "<value>"`
 
- 8. You should now be ready to begin the setup process.
+ 9. You should now be ready to begin the setup process.
 
 ## Diagram
 
@@ -31,7 +38,7 @@ This tutorial aims to automatically set up a Minecraft Java server on an AWS ser
 
 ## Setup
 
- 1. After following the Requirements steps, enter the following command in the terminal. This will initialize the directory, downloading the necessary files for the Terraform script to run.
+ 1. After following the Requirements Steps, enter the following command in the terminal. This will initialize the directory, downloading the necessary files for the Terraform script to run.
 
     `terraform init`
 
