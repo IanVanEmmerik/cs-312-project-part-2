@@ -19,7 +19,7 @@ AWS Academy Learner Lab
  1. Download the required tools from the links above, following the instructions on each page.
  2. Navigate to the folder where you will store the setup scripts.
  3. Right click in the file explorer and click "Git Bash Here" to open the git terminal. Alternatively, open the terminal elsewhere, then navigate to the desired directory using `cd {directory-path}`.
- 4. Enter `git clone https://github.com/IanVanEmmerik/cs-312-project-part-2.git` to download the repo contents.
+ 4. Enter `git clone https://github.com/IanVanEmmerik/cs-312-project-part-2.git` to download the repo contents, then navigate to the new folder in the terminal.
  5. Launch your AWS lab.
  6. On the same page, click "AWS Details", then click "show" to display the AWS CLI. These are the credentials that Terraform will use to interact with your AWS account.
  7. Enter the following commands in the terminal, replacing each of the values with your corresponding codes. This sets the environmental variables on your local machine, allowing Terraform to read them.
